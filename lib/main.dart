@@ -5,6 +5,7 @@ import 'package:learningdart/Pages/home.dart';
 import 'package:learningdart/Pages/login_page.dart';
 // ignore: depend_on_referenced_packages
 import 'package:google_fonts/google_fonts.dart';
+import 'package:learningdart/utils/routes.dart';
 
 void main(List<String> args) {
   // ignore: prefer_const_constructors
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
         fontFamily: GoogleFonts.lato().fontFamily,
       ),
+      debugShowCheckedModeBanner: false,
       // theme: ThemeData(
       //   primarySwatch: Colors.pink),
       darkTheme: ThemeData(
@@ -31,8 +33,8 @@ class MyApp extends StatelessWidget {
       routes: {
         // ignore: prefer_const_constructors
         "/": (context) => LoginPage(),
-        "/Home": (context) => HomePage(),
-        "/Login": (context) => LoginPage(),
+        MyRoutes.homepage: (context) => HomePage(),
+        MyRoutes.login: (context) => LoginPage(),
       },
     );
   }
