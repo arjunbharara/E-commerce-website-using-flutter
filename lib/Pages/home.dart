@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:learningdart/widget/drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -17,7 +18,7 @@ class HomePage extends StatelessWidget {
           child: const Text("this is my first App"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: Mydrawer(),
     );
   }
 }

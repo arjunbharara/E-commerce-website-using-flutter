@@ -6,6 +6,7 @@ import 'package:learningdart/Pages/login_page.dart';
 // ignore: depend_on_referenced_packages
 import 'package:google_fonts/google_fonts.dart';
 import 'package:learningdart/utils/routes.dart';
+import 'package:learningdart/widget/theme.dart';
 
 void main(List<String> args) {
   // ignore: prefer_const_constructors
@@ -19,17 +20,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.light,
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-        fontFamily: GoogleFonts.lato().fontFamily,
-      ),
-      debugShowCheckedModeBanner: false,
+      theme:MyTheme.lighttheme(context),
       // theme: ThemeData(
-      //   primarySwatch: Colors.pink),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-      ),
-      initialRoute: "/",
+      //   primarySwatch: Colors.pink
+      darkTheme: MyTheme.darktheme(context),
+      initialRoute: MyRoutes.login,
       routes: {
         // ignore: prefer_const_constructors
         "/": (context) => LoginPage(),
