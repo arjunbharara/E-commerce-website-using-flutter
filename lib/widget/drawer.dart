@@ -21,7 +21,7 @@ import 'package:flutter/material.dart';
          accountEmail: Text("arjunbharara03@gmail.com"),
          margin: EdgeInsets.zero,
          currentAccountPicture: CircleAvatar(
-                  radius: 60,
+                  radius: 100,
                   backgroundColor: Colors.white,
                   child: Image.asset('assets/images/arjun.png')),
          )

@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:learningdart/Pages/home.dart';
 import 'package:learningdart/Pages/login_page.dart';
 // ignore: depend_on_referenced_packages
-import 'package:google_fonts/google_fonts.dart';
 import 'package:learningdart/utils/routes.dart';
 import 'package:learningdart/widget/theme.dart';
 
