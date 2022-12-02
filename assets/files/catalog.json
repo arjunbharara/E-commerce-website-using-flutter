@@ -1,0 +1,68 @@
+{  
+	"products":[
+	     {
+		  "id":1,
+		  "name":"iphone 12 pro",
+		  "desc":"apple iphone 12th generation",
+		  "price":999,
+	        "color":"#33505a",
+		  "image":"https://i.pinimg.com/236x/5b/95/b0/5b95b05d61d9d6c2e055f33b31c1d16d.jpg"
+           },
+           {
+		  "id":2,
+		  "name":"pixel 5",
+		  "desc":"google pixel 5th generation",
+		  "price":999,
+	        "color":"00ac51",
+		  "image":"https://i.pinimg.com/236x/d9/7e/45/d97e45973b35407bbf294ba1ed071830.jpg"
+           },
+	     {
+		  "id":3,
+		  "name":"m1 mac book Air",
+		  "desc":"Apple macbook air with apple silicon",
+		  "price":999,
+	        "color":"00ac51",
+		  "image":"https://i.pinimg.com/236x/22/b7/d9/22b7d93b7300d2cd6f6a3a611009f723.jpg"
+           },
+           {
+		  "id":4,
+		  "name":"playstaion 5",
+		  "desc":"sony playstation 5th generation",
+		  "price":999,
+	        "color":"00ac51",
+		  "image":"https://i.pinimg.com/236x/59/2c/0e/592c0e21ecc505174799ce1750c88ed3.jpg"
+           },
+	     {
+		  "id":5 ,
+		  "name":"airpodes pro",
+		  "desc":"Apple Airpods pro 1st generation",
+		  "price":999,
+	      "color":"00ac51",
+		  "image":"https://i.pinimg.com/236x/5d/52/2c/5d522c03b42e9ce9b38ffa19b1097354.jpg"
+           },
+           {
+		  "id":6,
+		  "name":"ipad pro",
+		  "desc":"Apple ipad pro 2022 edition",
+		  "price":999,
+	        "color":"00ac51",
+		  "image":"https://i.pinimg.com/236x/80/dc/3b/80dc3bf3cd2e9679c0f481873c4997d1.jpg"
+           },
+           {
+		  "id":7,
+		  "name":"galaxy s21 ultra",
+		  "desc":"Samsung Galaxy S21 Ultra 2022 edition",
+		  "price":999,
+	        "color":"00ac51",
+		  "image":"https://i.pinimg.com/236x/eb/6c/53/eb6c535c282335189264722182a04e27.jpg"
+           },
+           {
+		  "id":8,
+		  "name":"galaxy S21",
+		  "desc":"Samsung Galaxy S21  2022 edition",
+		  "price":999,
+	        "color":"00ac51",
+		  "image":"https://i.pinimg.com/236x/69/57/30/6957304d8f6e5df3f5923946596b3514.jpg"
+           }
+       ]
+}	
